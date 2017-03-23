@@ -7,6 +7,12 @@ NPM module that builds Windows installers for
 [Electron](https://github.com/atom/electron) apps using
 [Squirrel](https://github.com/Squirrel/Squirrel.Windows).
 
+## Customization for Mac builds
+
+This fork uses @dustinblackman's
+[mono-signtool](https://github.com/dustinblackman/mono-signtool) to
+enable code signing from Mac and Linux platforms.
+
 ## Installing
 
 ```sh
